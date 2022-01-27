@@ -30,9 +30,9 @@ function App() {
         <Route path="/homepage">
           <Homepage />
         </Route>
-        <Route path="/listview">
+        {/* <Route path="/listview">
           <ListView />
-        </Route>
+        </Route> */}
         // just for testing summary page.
         <Route path="/summary">
           <Summary />

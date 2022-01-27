@@ -138,7 +138,7 @@ function Orderlist() {
               </button>
             </div>
 
-            <Modal
+            {/* <Modal
               show={show}
               onHide={() => setShow(false)}
               dialogClassName="modal-90w"
@@ -185,7 +185,7 @@ function Orderlist() {
                   orderedDate={orderedDate}
                 />
               </Modal.Body>
-            </Modal>
+            </Modal> */}
 
             <div class="createbtn"></div>
           </div>
