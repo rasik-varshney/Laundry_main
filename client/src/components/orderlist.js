@@ -49,10 +49,10 @@ function Orderlist() {
       name: "Jeans",
     },
     {
-      image: "trousers.jpg",
+      image: "Joggers.jpg",
       description:
-        "best trousers washing laundry",
-      name: "Trousers",
+        "best Joggers washing laundry",
+      name: "Joggers",
       type: "Boolean",
     },
     {
@@ -63,17 +63,17 @@ function Orderlist() {
       type: "Boolean",
     },
     {
-      image: "trousers.jpg",
+      image: "shorts.jpg",
       description:
-        "best trousers washing laundry",
-      name: "Trousers",
+        "best Shorts washing laundry",
+      name: "Shorts",
       type: "Boolean",
     },
     {
-      image: "trousers.jpg",
+      image: "Others.jpg",
       description:
-        "best trousers washing laundry",
-      name: "Trousers",
+        "best  washing laundry",
+      name: "Others",
       type: "Boolean",
     },
   ];
