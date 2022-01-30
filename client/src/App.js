@@ -30,10 +30,10 @@ function App() {
         <Route path="/homepage">
           <Homepage />
         </Route>
-        {/* <Route path="/listview">
+        <Route path="/listview">
           <ListView />
-        </Route> */}
-        // just for testing summary page.
+        </Route>
+
         <Route path="/summary">
           <Summary />
         </Route>

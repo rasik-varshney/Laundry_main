@@ -55,6 +55,27 @@ function Orderlist() {
       name: "Trousers",
       type: "Boolean",
     },
+    {
+      image: "trousers.jpg",
+      description:
+        "best trousers washing laundry",
+      name: "Trousers",
+      type: "Boolean",
+    },
+    {
+      image: "trousers.jpg",
+      description:
+        "best trousers washing laundry",
+      name: "Trousers",
+      type: "Boolean",
+    },
+    {
+      image: "trousers.jpg",
+      description:
+        "best trousers washing laundry",
+      name: "Trousers",
+      type: "Boolean",
+    },
   ];
   return (
     <div>
@@ -134,11 +155,11 @@ function Orderlist() {
                 class="btn btn btn-primary proceed"
                 onClick={() => setShow(true)}
               >
-                proceed
+                Proceed
               </button>
             </div>
 
-            {/* <Modal
+            <Modal
               show={show}
               onHide={() => setShow(false)}
               dialogClassName="modal-90w"
@@ -185,7 +206,7 @@ function Orderlist() {
                   orderedDate={orderedDate}
                 />
               </Modal.Body>
-            </Modal> */}
+            </Modal>
 
             <div class="createbtn"></div>
           </div>

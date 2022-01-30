@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./footer";
-import Referal from "./referal";
+// import Referal from "./referal";
 import Footermain from "./footermain";
 import Header from "./header";
 import Signin from "./signin";
@@ -11,7 +11,7 @@ function home() {
     <div>
       <Header />
       <Signin />
-      <Referal />
+      {/* <Referal /> */}
       <Footermain />
       <Footer />
     </div>

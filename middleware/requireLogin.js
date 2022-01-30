@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 
-const JWT_Secret = "heythisisrasikvarshneyfrom10xacademylearningfullstackdevelopement";
+const JWT_Secret = "thisisrasikvarshneyfromjulybatchof10xacademyfullstackdeveloper";
 
 require("../models/user");
 const User = mongoose.model("User");

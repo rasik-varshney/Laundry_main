@@ -27,10 +27,6 @@ function Listview() {
       .then((response) => {
         setOrders(response.data.data.orders);
         setCount(orders.length);
-        // setTimeout(() => {
-        //   setOrders(response.data.data.orders);
-        //   setCount(orders.length);
-        // }, 1000);
         console.log(orders);
       })
       .catch((e) => {

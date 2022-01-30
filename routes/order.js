@@ -24,7 +24,7 @@ router.get("/", requireLogin, async function (req, res) {
 router.post("/", requireLogin, async function (req, res) {
   const number = await Order.countDocuments();
   console.log("variable ", number);
-  let order_num = "10XT12" + (number + 1);
+  let order_num = "ORD20" + (number + 1);
 
   const { Wash, Press, Fold, Pack } = {
     Wash: 20,

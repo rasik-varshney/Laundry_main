@@ -38,7 +38,6 @@ function OrderedItems({
 
   async function handleClick() {
     setShow(true);
-    //setCancel(true);
     axios
       .get(`http://localhost:5000/orders/${_id}`, {
         headers: { Authorization: `Bearer ${getToken()}` },
@@ -55,7 +54,7 @@ function OrderedItems({
         <td>{moment(createdAt).format("DD MMM YYYY,HH:mm")}</td>
         <td>Jp Nagar</td>
         <td>{address}</td>
-        <td>+91 9988667788</td>
+        <td>+91 9911111111</td>
         <td>{total_quantity}</td>
         <td>{total_price}</td>
         <td>{status}</td>
@@ -88,16 +87,14 @@ function OrderedItems({
               </div>
               <div class="col-lg-4">
                 <h6>Store Address</h6>
-                <p>Near Phone Booth, 10th Road</p>
+                <p>Near Indiranagar </p>
               </div>
               <div class="col-lg-4">
                 <h6>Phone</h6>
-                <p>+91 9988667788</p>
+                <p>+91 91919191919</p>
               </div>
             </div>
           </div>
-
-          {/* table */}
           <div>
             <small>
               <p>Order Details</p>

@@ -6,7 +6,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const requireLogin = require("../middleware/requireLogin");
 
-const JWT_Secret = "heythisisrasikvarshneyfrom10xacademylearningfullstackdevelopement";
+const JWT_Secret = "thisisrasikvarshneyfromjulybatchof10xacademyfullstackdeveloper";
 
 router.get("/protected", requireLogin, (req, res) => {
   res.send("Hello! Dear User.");

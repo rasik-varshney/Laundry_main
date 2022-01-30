@@ -71,7 +71,6 @@ function Signin() {
                 id="phone"
                 placeholder="Mobile/Email"
                 name="email"
-                // pattern="[7-9]{1}[0-9]{9}"
                 onChange={(e) => setEmail(e.target.value)}
         />
         <input

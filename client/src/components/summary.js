@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
-// import "./summary.css";
 import "./orderlist.css";
 import { useHistory } from "react-router-dom";
 
@@ -44,16 +43,14 @@ function Summary() {
               </div>
               <div class="col-lg-4">
                 <h6>Store Address</h6>
-                <p>Near Phone Booth, 10th Road</p>
+                <p>Near Indiranagar</p>
               </div>
               <div class="col-lg-4">
                 <h6>Phone</h6>
-                <p>+91 9999999999</p>
+                <p>+91 91919191919</p>
               </div>
             </div>
           </div>
-
-          {/* table */}
           <div>
             <small>
               <p>Order Details</p>
